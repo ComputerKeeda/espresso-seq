@@ -12,7 +12,7 @@ testing = ["hotshot-testing"]
 espresso-macros = { git = "https://github.com/EspressoSystems/espresso-macros.git", tag = "0.1.0" }
 hotshot-query-service = { workspace = true, features = ["testing"] }
 rand = "0.8.5"
-tempfile = "3.9.0"
+tempfile = "3.10.1"
 
 [dependencies]
 anyhow = { workspace = true }
