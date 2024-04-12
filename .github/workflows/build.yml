@@ -53,7 +53,7 @@ jobs:
           cargo build --release --workspace
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: x86_64-unknown-linux-gnu-services
           path: |
@@ -95,7 +95,7 @@ jobs:
           cargo build --release --workspace
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: aarch64-unknown-linux-gnu-services
           path: |
