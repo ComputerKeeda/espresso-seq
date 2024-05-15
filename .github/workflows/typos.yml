@@ -24,7 +24,7 @@ jobs:
         name: Checkout Repository
 
       - name: Install Nix
-        uses: cachix/install-nix-action@v26
+        uses: cachix/install-nix-action@V27
 
       - name: Check for Typos
         run: nix develop -c typos --exclude contract-bindings/artifacts
